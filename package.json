@@ -1,0 +1,20 @@
+{
+  "name": "mf",
+  "version": "1.0.0",
+  "description": "Prueba de node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass --watch scss -o css",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "node-sass scss -o css --output-style=compact",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.0",
+    "node-sass": "^4.13.0"
+  }
+}
