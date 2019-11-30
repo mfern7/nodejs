@@ -1,5 +1,6 @@
-$red: #900;
+$red: black;
 
 body{
-    background-color: red;
+    background-color: $red;
+    color: white;
 }
